@@ -210,7 +210,7 @@ background: linear-gradient(90deg, rgba(241,90,36,1) 0%, rgba(214,182,170,1) 50%
     text-align: center;
   }
   .tick:hover {
-    color: #38B6FF;
+    color: #efefef;
   }
   #features {
     padding: 5% 4% 5% 4%;
