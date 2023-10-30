@@ -10,7 +10,7 @@ const testimonials = [
         position: "Founder, GeeksForGeeks",
         photo: "assets/speakers/gfg.jpg",
         text:
-          "This guy is an amazing frontend developer that delivered the task exactly how we need it, do your self a favor and hire him, you will not be disappointed by the work delivered. He will go the extra mile to make sure that you are happy with your project. I will surely work again with him!",
+          "Last year, I had the incredible opportunity to visit YCCE as a speaker for the keynote speech at the ‘Innovations R Us’. It was a truly enriching experience, engaging with the bright minds at YCCE and sharing insights on innovation and its importance in our rapidly evolving world. I was impressed by the enthusiasm and passion of the students and faculty, and I look forward to more such interactions in the future.",
       },
   
   {
@@ -18,14 +18,14 @@ const testimonials = [
     position: "CEO, Walnut Discoveries",
     photo: "assets/speakers/nikhil_c.jpeg",
     text:
-      "This guy is an amazing frontend developer that delivered the task exactly how we need it, do your self a favor and hire him, you will not be disappointed by the work delivered. He will go the extra mile to make sure that you are happy with your project. I will surely work again with him!",
+      "It was truly an honor to be a speaker at YCCE’s keynote speech event “Innovations ‘R’ Us” last year. Sharing my insights and experiences with the brilliant minds at YCCE was an enriching experience, and I look forward to more opportunities to inspire and connect with the next generation of innovators.",
   },
   {
     name: "Mrs. Arushi Sana",
     position: "Founder, NYK Daily",
     photo: "assets/speakers/arushi_s.jpeg",
     text:
-      "This guy is a hard worker. Communication was also very good with him and he was very responsive all the time, something not easy to find in many freelancers. We'll definitely repeat with him.",
+      "In the previous year, I was fortunate to be a guest speaker at YCCE, presenting the keynote address at the “Innovations ‘R’ Us” event. It was a remarkable experience, sharing my perspectives and concepts with the dynamic audience at YCCE. The innovation and enthusiasm displayed by both students and faculty left a lasting impression on me. I eagerly anticipate future opportunities to connect with the brilliant minds at YCCE.",
   },
 
 ];
