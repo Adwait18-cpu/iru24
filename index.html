@@ -50,7 +50,12 @@
   </head>
   <body>
     <div class="sidenav_left">
-      <marquee behavior="scroll" scrollamount="8" direction="down">
+      <marquee
+        behavior="scroll"
+        scrollamount="8"
+        direction="down"
+        scrolldelay="60"
+      >
         <img
           src="assets/sdg_goals/E-WEB-Goal-17.png"
           alt=""
@@ -175,15 +180,69 @@
 
     <div class="main">
       <!-- <h1 style="text-align: center;">Hello World</h1> -->
-      <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 title">
-          <img
-            src="assets/banner/ycce_banner.png"
-            class="ycce_banner"
-            alt=""
-            srcset=""
-          />
+
+      <div
+        id="register"
+        class="row mt-3 mb-2"
+        style="margin-left: 20px; margin-right: 20px"
+      >
+        <div class="col-lg-1"></div>
+        <div class="col-lg-10" style="text-align: center">
+          <div class="collapse" id="collapseExample">
+            <div class="card-body nav_body">
+              <ul class="bar">
+                <li class="nav_item mt-2">
+                  <a href="#register" class="nav_link">Register</a>
+                </li>
+                <li class="nav_item mt-2">
+                  <a href="" class="nav_link">Organizing Team</a>
+                </li>
+                <li class="nav_item mt-2">
+                  <a href="#about_us" class="nav_link">About Us</a>
+                </li>
+                <li class="nav_item mt-2">
+                  <a href="#contact_us" class="nav_link">Contact Us</a>
+                </li>
+                <li class="nav_item mt-2 mb-3">
+                  <a href="" class="nav_link">Know More</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <a href="https://ycce.edu/" target="_blank">
+            <img
+              src="assets/banner/ycce_banner.png"
+              class="ycce_banner"
+              alt=""
+              srcset=""
+            />
+          </a>
         </div>
+        <div class="col-lg-1" style="text-align: end; text-decoration: none">
+          <a
+            data-bs-toggle="collapse"
+            href="#collapseExample"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapseExample"
+            class="nav_btn"
+          >
+            <!-- <i class="fa-solid fa-bars fa-2xl"></i> -->
+            <i class="fa-solid fa-list fa-2xl"></i>
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <!-- <div class="col-lg-12 col-md-12 col-sm-12 title">
+          <a href="https://ycce.edu/" target="_blank">
+            <img
+              src="assets/banner/ycce_banner.png"
+              class="ycce_banner"
+              alt=""
+              srcset=""
+            />
+          </a>
+        </div> -->
         <div class="col-lg-12 tagline">
           <h2>Central India's Biggest Startup and Innovation Conclave</h2>
         </div>
@@ -206,11 +265,11 @@
         </div>
       </div>
 
-      <div class="row mt-5 mb-5">
+      <div class="row mt-3 mb-3">
         <div class="col-lg-6 col-md-6 col-sm-6">
           <h1 class="date">
             <i class="fas fa-calendar"></i>
-            17-18 March 2023
+            January 2024
           </h1>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6 syatra">
@@ -238,7 +297,6 @@
               ● 5th to 12th <br />
               <br />
               ● Undergraduates to Professionals<br />
-              
             </p>
           </div>
         </div>
@@ -366,8 +424,41 @@
       </div>
 
       <hr />
+      <div class="row mt-5 mb-5" style="margin-left: 40px; margin-right: 40px">
+        <h1 style="text-align: center">Supported By</h1>
+        <div class="col-lg-8 mt-3">
+          <h3>Ministry of Micro, Small & Medium Enterprises</h3>
+          <p style="text-align: justify">
+            Micro, Small and Medium Enterprises (MSME) sector has emerged as a
+            highly vibrant and dynamic sector of the Indian economy over the
+            last five decades.<br />
+            <br />
+            MSMEs not only play crucial role in providing large employment
+            opportunities at comparatively lower capital cost than large
+            industries but also help in industrialization of rural & backward
+            areas, thereby, reducing regional imbalances, assuring more
+            equitable distribution of national income and wealth. MSMEs are
+            complementary to large industries as ancillary units and this sector
+            contributes enormously to the socio-economic development of the
+            country.
+          </p>
+        </div>
+        <div class="col-lg-4 mt-4" style="text-align: center">
+          <img
+            class="sponsor-logo ml-4"
+            src="assets/logos/MSME_Logo.png"
+            style="width: 250px"
+            alt=""
+          />
+        </div>
+      </div>
+      <hr />
 
-      <div class="row mt-5 mb-5" style="margin-left: 20px; margin-right: 20px">
+      <div
+        id="about_us"
+        class="row mt-5 mb-5"
+        style="margin-left: 20px; margin-right: 20px"
+      >
         <h1 style="text-align: center">Organizing Bodies</h1>
         <div
           id="carouselExampleAutoplaying"
@@ -423,7 +514,6 @@
               </h6>
             </div>
           </div>
-          
         </div>
 
         <div class="col-lg-4 mb-5" style="text-align: center">
@@ -475,143 +565,166 @@
       </div>
       <hr />
 
-      <div class="row mt-5 mb-5" style="margin-left: 50px; margin-right: 50px">
+      <div class="row mt-5 mb-5" style="margin-left: 10px; margin-right: 10px">
         <h1 style="text-align: center">Glimpse of IRU 2023</h1>
+        <!-- Gallery -->
+        <div class="row">
+          <div class="col-lg-3 col-md-12 mb-4 mb-lg-0">
+            <img
+              src="assets/iru23_images/1.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="Boat on Calm Water"
+            />
 
-        <!-- <div id="carouselExampleFade" class="carousel slide carousel-fade">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img
-                src="assets/iru23_images/1.jpg"
-                class="d-block w-100"
-                alt="..."
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="assets/iru23_images/2.jpeg"
-                class="d-block w-100"
-                alt="..."
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="assets/iru23_images/3.JPG"
-                class="d-block w-100"
-                alt="..."
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="assets/iru23_images/4.JPG"
-                class="d-block w-100"
-                alt="..."
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="assets/iru23_images/5.JPG"
-                class="d-block w-100"
-                alt="..."
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="assets/iru23_images/6.JPG"
-                class="d-block w-100"
-                alt="..."
-              />
-            </div>
+            <img
+              src="assets/iru23_images/3.JPG"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="Wintry Mountain Landscape"
+            />
           </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleFade"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleFade"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div> -->
+
+          <div class="col-lg-6 mt-5 mb-4 mb-lg-0">
+            <video width="100%" loop autoplay controls muted>
+              <source src="assets/iru23_images/iru2023.mp4" type="video/mp4">
+            </video>
+          </div>
+
+          <div class="col-lg-3 mb-4 mb-lg-0">
+            <img
+              src="assets/iru23_images/5.JPG"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="Waves at Sea"
+            />
+
+            <img
+              src="assets/iru23_images/6.JPG"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="Yosemite National Park"
+            />
+          </div>
+        </div>
+        <!-- Gallery -->
       </div>
 
       <hr />
 
-      <div class="row mt-5 mb-5">
-        <h1 style="text-align: center;">Contact Us</h1>
-        <div class="mt-5" style="text-align: center;">
-            <a href="https://twitter.com/iru_official?t=8-8bSuf0Xa4r66UvaA6OeA&s=09"><i
-                class="fab fa-twitter icon twitter"></i></a>
-            <a href="https://www.linkedin.com/company/innovations-r-us/"><i class="fab fa-linkedin icon linkedin"></i></a>
-            <a href="https://www.instagram.com/innovationsrus/"><i class="fab fa-instagram icon ig"></i></a>
-            <a href="mailto:organiser@innovationsrus.in"><i class="fas fa-envelope icon mail"></i></a>
-            <a href="tel:+91 9665053347"><i class="fas fa-phone icon phone" style="transform: scaleX(-1);"></i></a>
+      <div id="contact_us" class="row mt-5 mb-5">
+        <h1 style="text-align: center">Contact Us</h1>
+        <div class="mt-5" style="text-align: center">
+          <a
+            href="https://twitter.com/iru_official?t=8-8bSuf0Xa4r66UvaA6OeA&s=09"
+            ><i class="fab fa-twitter icon twitter"></i
+          ></a>
+          <a href="https://www.linkedin.com/company/innovations-r-us/"
+            ><i class="fab fa-linkedin icon linkedin"></i
+          ></a>
+          <a href="https://www.instagram.com/innovationsrus/"
+            ><i class="fab fa-instagram icon ig"></i
+          ></a>
+          <a href="mailto:organiser@innovationsrus.in"
+            ><i class="fas fa-envelope icon mail"></i
+          ></a>
+          <a href="tel:+91 9665053347"
+            ><i
+              class="fas fa-phone icon phone"
+              style="transform: scaleX(-1)"
+            ></i
+          ></a>
         </div>
       </div>
 
-      <div class="row" style="margin-left: 20px; margin-right: 20px;">
-        <div class="col-lg-6" style="text-align: center;">
-            <h2 class="mb-3" style="margin-left: 10%;">Feel free to ask anything</h2>
-            <form method="post" id="frmSubmit">
+      <div class="row" style="margin-left: 20px; margin-right: 20px">
+        <div class="col-lg-6" style="text-align: center">
+          <h2 class="mb-3" style="margin-left: 10%">
+            Feel free to ask anything
+          </h2>
+          <form method="post" id="frmSubmit">
+            <div class="form-group row mb-2">
+              <label
+                for="colFormLabelname"
+                class="col-lg-5 col-sm-12 col-form-label"
+                >Enter Your name</label
+              >
+              <div class="col-lg-7 col-sm-12">
+                <input
+                  type="text"
+                  name="name"
+                  class="form-control"
+                  id="colFormLabelname"
+                />
+              </div>
+            </div>
 
-                <div class="form-group row mb-2">
-                  <label for="colFormLabel" class="col-lg-5 col-sm-12 col-form-label">Enter Your name</label>
-                  <div class="col-lg-7 col-sm-12">
-                    <input type="text" name="name" class="form-control" id="colFormLabel">
-                  </div>
-                </div>
-      
-                <div class="form-group row mb-2">
-                  <label for="colFormLabel" class="col-lg-5 col-sm-12 col-form-label">Enter Your Email</label>
-                  <div class="col-lg-7 col-sm-12">
-                    <input type="email" name="email" class="form-control" id="colFormLabel">
-                  </div>
-                </div>
-      
-                <div class="form-group row">
-                  <label for="colFormLabel" class="col-lg-5 col-sm-12 col-form-label">Message</label>
-                  <div class="col-lg-7 col-sm-12">
-                    <!-- <input type="email" class="form-control" id="colFormLabel" placeholder="col-form-label"> -->
-                    <textarea id="colFormLabel" class="form-control" name="message" cols="30" rows="5"
-                      style="resize: none;"></textarea>
-                  </div>
-                </div>
-                <div>
-                  <button type="submit" id="btnSubmit" class="btn btn-light btn-outline-dark " style="height: 50px;">Submit</button>
-                </div>
-      
-              </form>
+            <div class="form-group row mb-2">
+              <label
+                for="colFormLabelemail"
+                class="col-lg-5 col-sm-12 col-form-label"
+                >Enter Your Email</label
+              >
+              <div class="col-lg-7 col-sm-12">
+                <input
+                  type="email"
+                  name="email"
+                  class="form-control"
+                  id="colFormLabelemail"
+                />
+              </div>
+            </div>
+
+            <div class="form-group row">
+              <label
+                for="colFormLabel"
+                class="col-lg-5 col-sm-12 col-form-label"
+                >Message</label
+              >
+              <div class="col-lg-7 col-sm-12">
+                <!-- <input type="email" class="form-control" id="colFormLabel" placeholder="col-form-label"> -->
+                <textarea
+                  id="colFormLabel"
+                  class="form-control"
+                  name="message"
+                  cols="30"
+                  rows="5"
+                  style="resize: none"
+                ></textarea>
+              </div>
+            </div>
+            <div>
+              <button
+                type="submit"
+                id="btnSubmit"
+                class="btn btn-light btn-outline-dark"
+                style="height: 50px"
+              >
+                Submit
+              </button>
+            </div>
+          </form>
         </div>
-        <div class="col-lg-6" style="text-align: center;">
-          <h2 class="mb-3" style="margin-right: 10%;">Find Us Here!</h2>
+        <div class="col-lg-6" style="text-align: center">
+          <h2 class="mb-3" style="margin-right: 10%">Find Us Here!</h2>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3722.435644645357!2d78.97638361493378!3d21.09519108596243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4952117eaac51%3A0x6d8277793eb63d6a!2sYeshwantrao%20Chavan%20College%20of%20Engineering%20(YCCE)%2C%20Nagpur!5e0!3m2!1sen!2sin!4v1667330266353!5m2!1sen!2sin"
-            style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
-
       </div>
 
-      <div class="row mb-2" style="text-align: center;">
+      <div class="row mb-2" style="text-align: center">
         <h3>© Copyright 2024 Innovations 'R' Us</h3>
       </div>
-
     </div>
 
-
-    
-
     <div class="sidenav_right">
-      <marquee behavior="scroll"scrollamount="8" direction="down">
+      <marquee
+        behavior="scroll"
+        scrollamount="8"
+        direction="down"
+        scrolldelay="60"
+      >
         <img
           src="assets/sdg_goals/E-WEB-Goal-01.png"
           alt=""

@@ -30,7 +30,7 @@ h3 {
 
 .sidenav_left {
   height: auto;
-  width: 160px;
+  width: 150px;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -43,9 +43,9 @@ h3 {
 
 .sidenav_right {
   height: auto;
-  width: 160px;
+  width: 150px;
   position: fixed;
-  z-index: -1;
+  z-index: 1;
   top: 0;
   right: 0;
   /* background-color: #111; */
@@ -61,6 +61,38 @@ h3 {
   margin-right: 160px;
 }
 
+.nav_btn{
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+}
+
+.nav_btn:hover{
+  text-decoration: none;
+  color: #efefef;
+  font-size: 20px;
+}
+
+.bar{
+  list-style-type: none;
+  display: inline;
+}
+.nav_body{
+  background-color: transparent;
+}
+.nav_item{
+  text-align: left;
+}
+.nav_link{
+  text-decoration: none;
+  font-size: 1.2rem;
+  color:#111010;
+  font-family: "Open Sans";
+  font-weight: 700;
+}
+.nav_link:hover{
+  color: #efefef;
+}
 /* .intro{
     background: rgb(241,90,36);
 background: linear-gradient(90deg, rgba(241,90,36,1) 0%, rgba(214,182,170,1) 50%, rgba(56,182,255,1) 100%);
@@ -72,13 +104,13 @@ background: linear-gradient(90deg, rgba(241,90,36,1) 0%, rgba(214,182,170,1) 50%
 }
 
 .ycce_banner {
-  width: 85%;
-  margin-top: 10px;
+  width: 90%;
+  margin-top: 0px;
 }
 
 .tagline {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 .tagline h2 {
@@ -96,7 +128,9 @@ background: linear-gradient(90deg, rgba(241,90,36,1) 0%, rgba(214,182,170,1) 50%
   font-weight: 900;
   font-size: 100px;
 }
-
+.iru_title:hover{
+    color: #efefef;
+}
 .iru_title img {
   margin-bottom: 13px;
 }
@@ -123,6 +157,8 @@ background: linear-gradient(90deg, rgba(241,90,36,1) 0%, rgba(214,182,170,1) 50%
 }
 
 .date {
+  font-weight: 900;
+  font-family: "Open Sans";
   margin-top: 30px;
   text-align: center;
 }
@@ -143,7 +179,7 @@ background: linear-gradient(90deg, rgba(241,90,36,1) 0%, rgba(214,182,170,1) 50%
   font-family: "Open Sans";
   font-weight: 900;
   font-size: 2.5rem;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .btn {
@@ -243,6 +279,8 @@ background: linear-gradient(90deg, rgba(241,90,36,1) 0%, rgba(214,182,170,1) 50%
 
   .bodies-content{
     text-align: justify;
+    font-family: "Open Sans";
+    font-weight: 700;
   }
 
   .body_logo{
