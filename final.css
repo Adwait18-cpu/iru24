@@ -1,0 +1,733 @@
+body{
+    background: rgb(241,90,36);
+background: linear-gradient(90deg, rgba(241,90,36,1) 0%, rgba(214,182,170,1) 50%, rgba(56,182,255,1) 100%);
+}
+body::-webkit-scrollbar{
+    display: none;
+  }
+h1 {
+  font-family: "Open Sans";
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+body {
+  font-family: "Open Sans";
+  font-weight: 600;
+  overflow-x: hidden;
+}
+h2 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+h3 {
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+/* Side Nav Css */
+
+.sidenav_left {
+  height: auto;
+  width: 150px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  /* background-color: #111; */
+  overflow-x: hidden;
+  /* padding-top: 20px; */
+  /* padding-bottom: 20px; */
+}
+
+.sidenav_right {
+  height: auto;
+  width: 150px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  /* background-color: #111; */
+  overflow-x: hidden;
+  /* padding-top: 20px; */
+  /* padding-bottom: 20px; */
+}
+
+/* Main Body CSS*/
+
+.main {
+  margin-left: 160px;
+  margin-right: 160px;
+}
+
+#register{
+  margin-left: 20px; 
+  margin-right: 20px;
+}
+
+.nav_btn{
+  text-decoration: none;
+  color: #000;
+  font-size: 40px;
+}
+
+.nav_btn:hover{
+  text-decoration: none;
+  color: #efefef;
+  font-size: 40px;
+}
+
+.bar{
+  list-style-type: none;
+  display: inline;
+}
+.nav_body{
+  background-color: transparent;
+}
+.nav_item{
+  text-align: left;
+  margin-top: 4px;
+}
+.nav_link{
+  text-decoration: none;
+  font-size: 1.2rem;
+  color:#111010;
+  font-family: "Open Sans";
+  font-weight: 700;
+  text-align: end; 
+  text-decoration: none;
+}
+.nav_link:hover{
+  color: #efefef;
+}
+/* .intro{
+    background: rgb(241,90,36);
+background: linear-gradient(90deg, rgba(241,90,36,1) 0%, rgba(214,182,170,1) 50%, rgba(56,182,255,1) 100%);
+} */
+.title {
+  /* margin-left: 160px;
+    margin-left: 160px; */
+  text-align: center;
+}
+
+.ycce_banner {
+  width: 90%;
+  margin-top: 0px;
+}
+
+.tagline {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.tagline h2 {
+  font-family: "Open Sans";
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+.name {
+  text-align: center;
+}
+
+.iru_title {
+  font-family: "Open Sans";
+  font-weight: 900;
+  font-size: 100px;
+}
+.iru_title:hover{
+    color: #efefef;
+}
+.iru_title img {
+  margin-bottom: 13px;
+}
+
+.rotate {
+  animation: rotation 5s;
+}
+
+.linear {
+  animation-timing-function: linear;
+}
+
+.infinite {
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.date {
+  font-weight: 900;
+  font-family: "Open Sans";
+  margin-top: 30px;
+  text-align: center;
+}
+.syatra {
+  text-align: center;
+}
+
+.syatra img {
+  height: 150px;
+}
+
+.reg-btn{
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.register-button{
+  height: 90px;
+  width: 75%;
+  border-radius: 50px;
+}
+.reg-link{
+  text-decoration: none;
+  color: #000;
+  font-family: "Open Sans";
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+.reg-link:hover{
+  color: #fff;
+} 
+/* .register-button a{
+  text-decoration: none;
+  color: #000;
+  font-family: "Open Sans";
+  font-weight: 900;
+  font-size: 2.5rem;
+
+}
+.register-button a :hover{
+  color: #fff;
+} */
+.cat_title {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+
+.categories {
+  margin-left: 15%;
+  padding-left: 15%;
+  padding-bottom: 0%;
+}
+
+.categories-text {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 1.7rem;
+}
+
+.flow{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.flow_title{
+    text-align: center;
+    font-weight: 900;
+    font-family: "Open Sans";
+}
+
+.tick {
+    font-size: 60px;
+    margin-bottom: 1rem;
+    color: #06283d;
+  }
+  
+  .feature-box {
+    padding: 1% 3% 1% 3%;
+    text-align: center;
+  }
+  .feature-box-mem {
+    padding: 1% 2% 1% 2%;
+    text-align: center;
+  }
+  .feature-member-name {
+    font-size: 1rem;
+  }
+  .sub-content {
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+  }
+  .tick:hover {
+    color: #efefef;
+  }
+  #features {
+    padding: 5% 4% 5% 4%;
+    background-color: #fff;
+    /* position: relative; */
+  }
+
+  .keynote{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    font-weight: 900;
+    align-items: center;
+  }
+
+  .org_title{
+    text-align: center;
+  }
+
+  .bodies-content{
+    text-align: justify;
+    font-family: "Open Sans";
+    font-weight: 700;
+  }
+
+  .body_logo{
+    height: 150px;
+  }
+
+  .testimonial-container {
+    
+    color: #111010;
+    border-radius: 15px;
+    margin: 20px auto;
+    padding: 50px 80px;
+    max-width: 768px;
+    position: relative;
+  }
+  
+  .fa-quote {
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 28px;
+    position: absolute;
+    top: 70px;
+  }
+  
+  .fa-quote-left {
+    left: 40px;
+  }
+  
+  .fa-quote-right {
+    right: 40px;
+  }
+  
+  .testimonial {
+    line-height: 28px;
+    text-align: justify;
+  }
+  
+  .user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .user .user-image {
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+    object-fit: cover;
+  }
+  
+  .user .user-details {
+    margin-left: 10px;
+  }
+  
+  .user .username {
+    margin: 0;
+  }
+  
+  .user .role {
+    font-weight: normal;
+    margin: 10px 0;
+  }
+  
+  .progress-bar {
+    background-color: #fff;
+    height: 4px;
+    width: 100%;
+    transform-origin: left;
+    animation: grow 10s linear infinite;
+  }
+  
+  @keyframes grow {
+    0% {
+      transform: scaleX(0);
+    }
+  }
+  .icon {
+    font-size: 3rem;
+    margin: 0 1rem 2rem;
+    transition: ease-in-out;
+    transition-duration: 0.1s;
+    transition-delay: 0s;
+    text-decoration: none;
+    color: #06283d;
+  }
+  
+  .icon:hover {
+    font-size: 4.5rem;
+    color: #1c5d86;
+  }
+  .icon.ig:hover {
+    font-size: 4.5rem;
+    color: #dd2a7b;
+  }
+  .icon.twitter:hover {
+    font-size: 4.5rem;
+    color: #00acee;
+  }
+  .icon.linkedin:hover {
+    font-size: 4.5rem;
+    color: #0a66c2;
+  }
+  .icon.phone:hover {
+    font-size: 4.5rem;
+    color: #0a66c2;
+    /* transform: scaleX(-1); */
+  }
+
+  .feel_title{
+    text-align: center;
+  }
+
+  .find_title{
+    text-align: center;
+  }
+
+  .query_form{
+    width: 90%;
+    height: 350px;
+    padding: 20px 20px 20px;
+    margin-left: 5%;
+    margin-bottom: 10%;
+    background: #efefef;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+  .query_form_submit{
+    text-align: center;
+    width: 50%;
+  }
+
+  /* form {
+    width: 90%;
+    height: 350px;
+    
+    margin-left: 10%;
+    margin-bottom: 10%;
+    background: #efefef;
+    padding: 20px 20px 20px;
+    text-align: center;
+    -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+  
+  iframe {
+    height: 350px;
+    width: 90%;
+    
+    margin-right: 10%;
+    margin-bottom: 10%;
+    background: #efefef;
+   
+    padding: 20px 20px 20px;
+    text-align: center;
+    -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 10px;
+  } */
+
+
+@media (max-width: 480px) {
+  h1 {
+    font-family: "Open Sans";
+    font-weight: 900;
+    font-size: 1.5rem;
+    line-height: 1.6;
+  }
+
+  h2 {
+    font-family: "Open Sans";
+    font-size: 1.2rem;
+    font-weight: 900;
+  }
+
+  h3 {
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 1rem;
+  }
+  p{
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 1rem;
+  }
+  .sidenav_left {
+    width: 0;
+    height: 0;
+  }
+  .sidenav_right {
+    width: 0;
+    height: 0;
+  }
+
+  .main {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  #register{
+    display: inline;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .ycce_banner {
+    width: 100%;
+  }
+
+  .nav_btn{
+    font-size: 22px;
+  }
+  .nav_btn:hover{
+    font-size: 20px;
+  }
+
+  .nav_body{
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .nav_item{
+    margin-top: 0px;
+  }
+
+  .nav_link{
+    font-size: 0.6rem;
+  }
+
+  .tagline {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .tagline h2 {
+    font-family: "Open Sans";
+    font-weight: 900;
+    font-size: 0.7rem;
+  }
+
+  .iru_title {
+    font-family: "Open Sans";
+    font-weight: 900;
+    font-size: 25px;
+  }
+
+  .iru_title img {
+    height: 25px;
+    width: 25px;
+    margin-bottom: 5px;
+  }
+  .date {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+  }
+  .syatra {
+    text-align: center;
+  }
+
+  .syatra img {
+    height:0px;
+    width: 0px;
+  }
+  
+  .reg-btn{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .reg-btn :hover{
+    color: #fff;
+  }
+  .register-button{
+    height: 40px;
+    width: 75%;
+    border-radius: 50px;
+  }
+  .register-button:hover{
+    color: #fff;
+  }
+  .reg-link{
+    text-decoration: none;
+    color: #000;
+    font-family: "Open Sans";
+    font-weight: 900;
+    font-size: 0.7rem;
+  }
+  .reg-link:hover{
+    color: #fff;
+  }
+
+  .cat_title {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.2rem;
+  }
+  
+  .categories {
+    margin-left: 1%;
+    padding-left: 15%;
+    padding-bottom: 0%;
+  }
+  
+  .categories-text {
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 1rem;
+  }
+
+  .flow_title{
+    font-size: 1.5rem;
+    font-weight: 900;
+    font-family: "Open Sans";
+  }
+  .tick {
+    font-size: 30px;
+    margin-bottom: 1rem;
+    color: #06283d;
+  }
+  
+  .feature-box {
+    padding: 1% 3% 1% 3%;
+    text-align: center;
+  }
+  .feature-box-mem {
+    padding: 1% 2% 1% 2%;
+    text-align: center;
+  }
+  .feature-name{
+    font-size: 1rem;
+  }
+  .feature-member-name {
+    font-size: 1rem;
+  }
+  .sub-content {
+    color: #000;
+    font-size: 15px;
+    text-align: center;
+  }
+  .tick:hover {
+    color: #efefef;
+  }
+  .key_title{
+    font-size: 1.2rem;
+    font-weight: 900;
+    font-family: "Open Sans";
+  }
+  .key_photo{
+    padding-top: 0rem!important;
+    padding-bottom: 0rem!important;
+  }
+  .support_title{
+    font-size: 1.2rem!important;
+    font-weight: 900!important;
+    font-family: "Open Sans"!important;
+  }
+  .support_name{
+    font-size: 1.2rem!important;
+    font-weight: 900!important;
+    font-family: "Open Sans"!important;
+  }
+  .support_content{
+    font-family: "Open Sans"!important;
+    font-size: 0.7rem!important;
+    font-weight: 700!important;
+  }
+  .sponsor-logo{
+    width: 125px  ;
+  }
+  .bodies-title{
+    font-size: 1.2rem!important;
+    font-weight: 900!important;
+    font-family: "Open Sans"!important;
+  }
+  .bodies-name{
+    font-size: 1.2rem!important;
+    font-weight: 900!important;
+    font-family: "Open Sans"!important;
+  }
+  .bodies-content{
+    font-family: "Open Sans"!important;
+    font-size: 0.7rem!important;
+    font-weight: 700!important;
+  }
+  .bodies_logo{
+    height: 100px!important;
+  }
+  .testimonial-container {
+    padding: 20px 30px;
+  }
+
+  .fa-quote {
+    display: none;
+  }
+
+  .contact_title{
+    font-size: 1.2rem;
+    font-weight: 900;
+    font-family: "Open Sans";
+  }
+
+  .icon {
+    font-size: 2rem;
+    /* margin: 0 1rem 2rem; */
+    transition: ease-in-out;
+    transition-duration: 0.1s;
+    transition-delay: 0s;
+    text-decoration: none;
+    color: #06283d;
+  }
+  
+  .icon:hover {
+    font-size: 2.5rem;
+    color: #1c5d86;
+  }
+  .icon.ig:hover {
+    font-size: 2.5rem;
+    color: #dd2a7b;
+  }
+  .icon.twitter:hover {
+    font-size: 2.5rem;
+    color: #00acee;
+  }
+  .icon.linkedin:hover {
+    font-size: 2.5rem;
+    color: #0a66c2;
+  }
+  .icon.phone:hover {
+    font-size: 2.5rem;
+    color: #0a66c2;
+    /* transform: scaleX(-1); */
+  }
+
+  .feel_title{
+    font-size: 1.2rem;
+    font-weight: 900;
+    font-family: "Open Sans";
+  }
+  .find_title{
+    font-size: 1.2rem;
+    font-weight: 900;
+    font-family: "Open Sans";
+  }
+
+}
